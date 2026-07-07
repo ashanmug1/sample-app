@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: dev-container
-        image: europe-west1-docker.pkg.dev/<YOUR_PROJECT_ID>/my-repository/hello-cloudbuild-dev:v2.0
+        image: europe-west1-docker.pkg.dev/<YOUR_qwiklabs-gcp-03-082aac0e8ff0>/my-repository/hello-cloudbuild-dev:v2.0
         ports:
         - containerPort: 8080
